@@ -1,0 +1,3 @@
+running e2c
+mustbe: want TK.SYM, got Token(TK.THEN : 1)
+can't parse: line 1 missing token (mustbe)

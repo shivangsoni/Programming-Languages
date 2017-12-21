@@ -1,0 +1,58 @@
+running e2c
+compiling the C generated code
+t15.c: In function ‘main’:
+t15.c:4:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t15.c:5:16: error: ‘a’ undeclared (first use in this function)
+ printf("%d\n", a + );
+                ^
+t15.c:5:16: note: each undeclared identifier is reported only once for each function it appears in
+t15.c:5:20: error: expected expression before ‘)’ token
+ printf("%d\n", a + );
+                    ^
+t15.c:6:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t15.c:9:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t15.c:12:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t15.c:18:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t15.c:19:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t15.c:22:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t15.c:25:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t15.c:31:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t15.c:32:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t15.c:35:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t15.c:38:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t15.c:44:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t15.c:45:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t15.c:48:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t15.c:51:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^

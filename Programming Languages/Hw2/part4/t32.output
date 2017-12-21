@@ -1,0 +1,43 @@
+running e2c
+compiling the C generated code
+t32.c: In function ‘main’:
+t32.c:4:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:5:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:6:16: error: ‘a’ undeclared (first use in this function)
+ printf("%d\n", a);
+                ^
+t32.c:6:16: note: each undeclared identifier is reported only once for each function it appears in
+t32.c:7:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t32.c:8:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:9:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:11:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t32.c:12:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:13:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:15:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t32.c:16:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:17:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t32.c:23:16: error: ‘athree’ undeclared (first use in this function)
+ printf("%d\n", athree);
+                ^

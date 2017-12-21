@@ -1,0 +1,34 @@
+running e2c
+compiling the C generated code
+t14.c: In function ‘main’:
+t14.c:4:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t14.c:5:2: error: expected expression before ‘=’ token
+  =  - ;
+  ^
+t14.c:6:2: error: expected expression before ‘=’ token
+  =  - ;
+  ^
+t14.c:7:2: error: expected expression before ‘=’ token
+  =  - ;
+  ^
+t14.c:8:16: error: ‘a’ undeclared (first use in this function)
+ printf("%d\n", a);
+                ^
+t14.c:8:16: note: each undeclared identifier is reported only once for each function it appears in
+t14.c:9:16: error: ‘b’ undeclared (first use in this function)
+ printf("%d\n", b);
+                ^
+t14.c:10:16: error: ‘another’ undeclared (first use in this function)
+ printf("%d\n", another);
+                ^
+t14.c:11:21: error: expected expression before ‘)’ token
+ printf("%d\n", 3 + *);
+                     ^
+t14.c:12:24: error: expected expression before ‘)’ token
+ printf("%d\n", (( -  - ));
+                        ^
+t14.c:29:1: error: expected declaration or statement at end of input
+ }
+ ^

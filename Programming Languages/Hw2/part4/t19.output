@@ -1,0 +1,58 @@
+running e2c
+compiling the C generated code
+t19.c: In function ‘main’:
+t19.c:4:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t19.c:5:11: error: expected expression before ‘<=’ token
+ while( -  <= 0){
+           ^
+t19.c:6:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t19.c:7:2: error: expected expression before ‘=’ token
+  =  - ;
+  ^
+t19.c:8:8: error: expected expression before ‘<=’ token
+ while( <= 0){
+        ^
+t19.c:9:16: error: ‘k’ undeclared (first use in this function)
+ printf("%d\n", k);
+                ^
+t19.c:9:16: note: each undeclared identifier is reported only once for each function it appears in
+t19.c:10:2: error: expected expression before ‘=’ token
+  =  + ;
+  ^
+t19.c:13:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t19.c:14:2: error: expected expression before ‘=’ token
+  =  - ;
+  ^
+t19.c:15:8: error: expected expression before ‘<=’ token
+ while( <= 0){
+        ^
+t19.c:16:2: error: expected expression before ‘=’ token
+  = *;
+  ^
+t19.c:17:16: error: expected expression before ‘long’
+ printf("%d\n", long);
+                ^
+t19.c:18:2: error: expected expression before ‘=’ token
+  =  + ;
+  ^
+t19.c:22:2: error: expected expression before ‘=’ token
+  =  - ;
+  ^
+t19.c:23:8: error: expected expression before ‘<=’ token
+ while( <= 0){
+        ^
+t19.c:25:2: error: expected expression before ‘=’ token
+  =  + ;
+  ^
+t19.c:28:2: error: expected expression before ‘=’ token
+  =  - ;
+  ^
+t19.c:30:16: error: ‘i’ undeclared (first use in this function)
+ printf("%d\n", i);
+                ^

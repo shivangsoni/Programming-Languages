@@ -1,0 +1,61 @@
+running e2c
+compiling the C generated code
+t16.c: In function ‘main’:
+t16.c:4:1: error: unknown type name ‘redeclaration’
+ redeclaration of variable a
+ ^
+t16.c:4:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘variable’
+ redeclaration of variable a
+                  ^
+t16.c:9:16: error: ‘a’ undeclared (first use in this function)
+ printf("%d\n", a + );
+                ^
+t16.c:9:16: note: each undeclared identifier is reported only once for each function it appears in
+t16.c:9:20: error: expected expression before ‘)’ token
+ printf("%d\n", a + );
+                    ^
+t16.c:10:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t16.c:13:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t16.c:16:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t16.c:22:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t16.c:23:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t16.c:26:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t16.c:29:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t16.c:35:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t16.c:36:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t16.c:39:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t16.c:42:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t16.c:48:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t16.c:49:8: error: expected expression before ‘<=’ token
+ if( -  <= 0){
+        ^
+t16.c:52:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^
+t16.c:55:13: error: expected expression before ‘<=’ token
+ else if( -  <= 0){
+             ^

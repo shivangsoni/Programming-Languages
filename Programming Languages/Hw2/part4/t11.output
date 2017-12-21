@@ -1,0 +1,16 @@
+running e2c
+compiling the C generated code
+t11.c: In function ‘main’:
+t11.c:4:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t11.c:5:2: error: expected expression before ‘=’ token
+  = ;
+  ^
+t11.c:6:16: error: ‘i’ undeclared (first use in this function)
+ printf("%d\n", i + );
+                ^
+t11.c:6:16: note: each undeclared identifier is reported only once for each function it appears in
+t11.c:6:20: error: expected expression before ‘)’ token
+ printf("%d\n", i + );
+                    ^
